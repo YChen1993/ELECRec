@@ -18,18 +18,6 @@ Model Architecture:
 
 <img src="./img/overview.png" width="800">
 
-## Reference
-
-Please cite our paper if you use this code.
-
-```
-@article{chen2022intent,
-  title={Intent Contrastive Learning for Sequential Recommendation},
-  author={Chen, Yongjun and Liu, Zhiwei and Li, Jia and McAuley, Julian and Xiong, Caiming},
-  journal={arXiv preprint arXiv:2202.02519},
-  year={2022}
-}
-```
 
 ## Implementation
 ### Requirements
@@ -52,4 +40,6 @@ TBD.
 
 TBD.
 
+## Reference
 
+TBD
