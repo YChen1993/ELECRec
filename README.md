@@ -1,12 +1,9 @@
 # ELECRec
 
-
 Source code for paper: [ELECRec: Training Sequential Recommenders as Discriminators](https://arxiv.org/pdf/2204.02011.pdf)
 
-Code releasing soon...
-
-
 ## Introduction
+
 
 Motivation: 
 
