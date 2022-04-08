@@ -97,4 +97,11 @@ Explanation of key arguments in the script:
 
 ## Reference
 
-TBD
+```
+@inproceedings{chen22elecrec,
+  title = "ELECRec: Training Sequential Recommenders as Discriminators",
+  author = "Yongjun Chen and Jia Li and Caiming Xiong",
+  year = "2022",
+  booktitle = "SIGIR"
+}
+```
