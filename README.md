@@ -18,6 +18,14 @@ Model Architecture:
 
 <img src="./img/overview.png" width="800">
 
+## Result Summary
+
+Following table shows the overall comparison with other sequential models.
+
+<img src="./img/result_summary.png" width="800">
+
+See [our paper](https://arxiv.org/pdf/2204.02011.pdf) for more details. 
+
 
 ## Implementation
 ### Requirements
