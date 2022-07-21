@@ -102,3 +102,9 @@ Explanation of key arguments in the script:
   booktitle = "SIGIR"
 }
 ```
+
+## Notes and Limitations
+
+This work specifically focuses on improving sequential recommendations. A key difference with [ELECTRA](https://arxiv.org/abs/2003.10555) from NLP domain is that ELECTRA distinguishes if a word token from the ‘current’ position is generated or from the training data for model pre-training, while our method target for recommendation domain and aims to distinguish the plausible ‘future’ items, which better aligned with the recommendation tasks. 
+
+In the current version, the model needs to be carefully tuned on hyperparameters such as sampling rate and the optimal settings vary over datasets. Future works are investigate on a more generic training strategies to make the model learning more stable.
