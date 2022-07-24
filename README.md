@@ -21,6 +21,14 @@ Following table shows the overall comparison with other sequential models.
 
 <img src="./img/result_summary.png" width="800">
 
+
+
+We also replaced the sequential binary cross-entropy loss that used in original SASRec with Softmax,
+denoted as SASRec+. Following table shows that additional comparisons.
+
+<img src="./img/additional_compare.png" width="800">
+
+
 See [our paper](https://arxiv.org/pdf/2204.02011.pdf) for more details. 
 
 
