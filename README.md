@@ -29,7 +29,7 @@ denoted as SASRec+. Following table shows that additional comparisons.
 <img src="./img/additional_compare.png" width="800">
 
 
-See [our paper](https://arxiv.org/pdf/2204.02011.pdf) for more details. 
+See [our paper](https://arxiv.org/pdf/2204.02011.pdf) for more details (efficiency, hyper-parameter sensitivities, etc.). 
 
 
 ## Implementation
