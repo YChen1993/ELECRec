@@ -28,6 +28,11 @@ denoted as SASRec+. Following table shows that additional comparisons.
 
 <img src="./img/additional_compare.png" width="800">
 
+**[Note: 07/24/2022]** One feature that is in ELECRec but I miss to highlight in our camera-ready paper is that: In the Sampler module, I use ```--prob_power``` to control the concentration of items to be sampled from the Generator. The higher ```prob_power``` means the Sampler will more likely to sample items that are harder to be identified correctly. I use the default value (```prob_power=1```) on the three Amazon datasets as I did not see much improvement gain. While increasing it to ```prob_power=4.4``` on Yelp, which terms out to be very useful on lifting models performance (See Table above). 
+
+Feel it's interesting to investigate how to better characterize the different properties of recommendations datasets (e.g., Amazon v.s. Yelp datasets) and how these properties affect model learning differently. And if we can have a generic learning paradigm to allow the recommender learning adaptively from datasets with different properties.
+
+
 
 See [our paper](https://arxiv.org/pdf/2204.02011.pdf) for more details (efficiency, hyper-parameter sensitivities, etc.). 
 
@@ -98,6 +103,7 @@ Explanation of key arguments in the script:
 --sample_ratio: percentage of target items in a sequences will be replaced by the predict items from generator.     
 --dis_loss_weight: strength of discriminator loss
 --model_shared_type: model parameter sharing strategy between generator and discriminator
+--prob_power: concentrate level that the sampler focus on the `hard' negative items 
 ```
 
 ## Reference
